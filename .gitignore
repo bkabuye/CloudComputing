@@ -1,0 +1,8 @@
+# Ignore JetBrains project settings
+.idea
+.idea/libraries/vcs.xml
+.idea/libraries/*.xml
+
+
+
+
