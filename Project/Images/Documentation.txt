@@ -1,0 +1,48 @@
+
+Installation Process
+
+Tools
+Docker : https://www.docker.com/
+Insomnia : https://insomnia.rest/ or Postman : https://www.getpostman.com/
+python : https://www.python.org/
+
+Imported Libraries
+flask : is a mircoframework written in python.
+flask_restful : an  extension of flask that adds support when quickly building REST APIs
+re : this is a third-party regex module with an API used to string manipulation. 
+
+Docker commands
+- Start Docker running 
+- Using Terminal for mac or linux or commmand prompt for windows, navigate to the "Project" folder
+- Type 'Docker-compose build' and enter. Wait until installation is complete and the panel displays following image.(This command builds the source and libraries to be used in docker)
+[Image]
+
+- Type 'Docker-compose Up' and hit enter. Wait until installation is compelte and this panel displays following image.(This command excutes and runs python code)
+[Image]
+
+To start
+Either use a regular browser or Insomnia or Postman.
+
+Using browser/Insomnia/Postman
+Navigate to GET http://localhost:5000/messageList/
+This will list all the messages sent to each recevier and the sender.
+
+Using Insomnia/Postman
+Navigate to POST http://localhost:5000/messageList/
+This will post json data or messages sent to the recevier from the sender.
+
+Using Insomnia/Postman
+Navigate to PUT http://localhost:5000/message/receiver
+This will update messages sent to the receiver by the sender.
+
+Using Insomnia/Postman
+Navigate to GET http://localhost:5000/message/message
+This will return a specified existing message and determine if it is palindrome. 
+
+Using Insomnia/Postman
+Navigate to DELETE http://localhost:5000/message/message
+This will remove a specified message sent to any receiver by the sender.
+
+
+
+

@@ -1,0 +1,8 @@
+version: '3'
+services:
+  api-service:
+    build: ./python_api
+    volumes:
+      - .:/code
+    ports:
+      - 5001:80
