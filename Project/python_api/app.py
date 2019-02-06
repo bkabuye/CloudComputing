@@ -1,3 +1,9 @@
+"""
+Cloud Computing Implementation
+Brian R Kabuye
+02/05/2018
+"""
+
 from flask import Flask
 from flask_restful import Api, Resource, reqparse
 import re
